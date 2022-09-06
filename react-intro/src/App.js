@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import ButtonComponent from "./components/ButtonComponent"
-// import ImageComponent from "./components/ImageComponent"
+import ImageComponent from "./components/ImageComponent"
+
 function App() {
   return (
     <div className="App">
@@ -10,14 +11,15 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        {/* <ImageComponent/> */}
+       
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <ButtonComponent/>
+          <ButtonComponent  label="This a text Button"/>
+          <ImageComponent src={logo} alt="image"/>
           Learn React
         </a>
       </header>

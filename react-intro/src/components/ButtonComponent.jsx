@@ -1,6 +1,6 @@
 const ButtonComponent =()=>{
     return(
-        <button>Button</button>
+        <button >{this.props.label}</button>
     )
 
 }
